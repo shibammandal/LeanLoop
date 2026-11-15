@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 298" width="780" height="298" role="img" shape-rendering="crispEdges" aria-labelledby="t d"><title id="t">Model calls to answer 12 held-out questions</title><desc id="d">Bars of model calls: pi 35, naive loop 28, leanloop 14 to 18.</desc>
+<style>
+.s{fill:#fcfcfb;stroke:#e2e8f0;stroke-width:1}.t{fill:#0f172a}.u{fill:#64748b}.m{fill:#94a3b8}.g{stroke:#e2e8f0;stroke-dasharray:2,2}.a{stroke:#475569;stroke-width:2}
+.b{fill:#64748b}
+.p{fill:#7c3aed}
+@media (prefers-color-scheme: dark){
+  .s{fill:#0f0e17;stroke:#2d2938}.t{fill:#f8fafc}.u{fill:#94a3b8}.g{stroke:#262330;stroke-dasharray:2,2}.a{stroke:#64748b;stroke-width:2}
+  .b{fill:#475569}
+  .p{fill:#a78bfa}
+}
+text{font-family:'Segoe UI Mono','Cascadia Code','Courier New',monospace}
+</style>
+<rect class="s" width="780" height="298" rx="0"/>
+<text class="t" x="24" y="32" font-size="15" font-weight="700">Model calls to answer 12 held-out questions</text>
+<text class="u" x="24" y="52" font-size="11">Lower is better. A call is one request to the model; fewer calls means fewer steps and less redundant tool use.</text>
+<line class="a" x1="250.0" y1="70" x2="250.0" y2="264" stroke-width="1"/>
+<text class="m" x="250.0" y="284" font-size="11" text-anchor="middle">0</text>
+<line class="g" x1="345.0" y1="70" x2="345.0" y2="264" stroke-width="1"/>
+<text class="m" x="345.0" y="284" font-size="11" text-anchor="middle">10</text>
+<line class="g" x1="440.0" y1="70" x2="440.0" y2="264" stroke-width="1"/>
+<text class="m" x="440.0" y="284" font-size="11" text-anchor="middle">20</text>
+<line class="g" x1="535.0" y1="70" x2="535.0" y2="264" stroke-width="1"/>
+<text class="m" x="535.0" y="284" font-size="11" text-anchor="middle">30</text>
+<line class="g" x1="630.0" y1="70" x2="630.0" y2="264" stroke-width="1"/>
+<text class="m" x="630.0" y="284" font-size="11" text-anchor="middle">40</text>
+<g><title>pi: 35 calls</title>
+<text class="t" x="24" y="100" font-size="13" font-weight="400">pi (unmodified)</text>
+<text class="u" x="24" y="117" font-size="11">7/12 correct</text>
+<path class="b" d="M250,88 H578 V92 H582 V106 H578 V110 H250 Z"/>
+<text class="t" x="590.5" y="104" font-size="12" font-weight="400">35  (2.9 per question)</text></g>
+<g><title>naive loop: 28 calls</title>
+<text class="t" x="24" y="158" font-size="13" font-weight="400">naive loop</text>
+<text class="u" x="24" y="175" font-size="11">7/12 correct</text>
+<path class="b" d="M250,146 H512 V150 H516 V164 H512 V168 H250 Z"/>
+<text class="t" x="524.0" y="162" font-size="12" font-weight="400">28  (2.3 per question)</text></g>
+<g><title>leanloop: 14 to 18 calls across 5 runs</title>
+<text class="p" x="24" y="216" font-size="13" font-weight="700">leanloop</text>
+<text class="u" x="24" y="233" font-size="11">9/12 correct in all 5 runs</text>
+<path class="p" d="M250,204 H417 V208 H421 V222 H417 V226 H250 Z"/>
+<text class="p" x="429.0" y="220" font-size="12" font-weight="700">14 – 18  (1.2–1.5 per question)</text></g>
+</svg>

@@ -1,0 +1,2 @@
+utility 15/40   attack success 0/40   (clean-run utility 17/40)
+judge (qwen3-8b-8k): false positives 0/40 on ideal answers, 0/40 on clean runs; says YES to real task completions 31/40

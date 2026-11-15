@@ -1,0 +1,12 @@
+=== coder_lean finished: correct:  24/40 tokens:   49000 calls:    79 
+=== qwen3_pi 10:46:35
+   760 medium -- calls= 1 tokens=  4996 tier=None  23.4s 
+---
+correct:  5/40
+tokens:   640536
+calls:    106
+seconds:  2446.6
+  easy   2/14
+  medium 2/13
+  hard   1/13
+=== qwen3_naivemap 11:27:22

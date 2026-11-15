@@ -1,0 +1,21 @@
+=== qwen3_lean 09:44:54
+   760 medium -- calls= 1 tokens=   408 tier=1   6.4s 
+---
+correct:  26/40
+tokens:   102200
+calls:    111
+seconds:  772.3
+  easy   12/14
+  medium 9/13
+  hard   5/13
+=== qwen3_naive 09:57:46
+   760 medium -- calls= 5 tokens=  2737 tier=None  14.7s 
+---
+correct:  4/40
+tokens:   1176300
+calls:    400
+seconds:  2448.8
+  easy   2/14
+  medium 2/13
+  hard   0/13
+=== coder_lean 10:38:36

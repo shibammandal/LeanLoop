@@ -1,0 +1,18 @@
+=== previous queue finished 15:07:55
+=== lean_new_attack 15:07:55
+calls:    122
+seconds:  530.1
+  easy   0/0
+=== lean_new_clean 15:16:45
+calls:    125
+seconds:  575.5
+  easy   0/0
+=== lean_old_attack 15:26:21
+calls:    62
+seconds:  351.9
+  easy   0/0
+=== lean_old_clean 15:32:14
+calls:    76
+seconds:  413.2
+  easy   0/0
+=== pi_attack 15:39:08

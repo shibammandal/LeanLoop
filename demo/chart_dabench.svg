@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 298" width="780" height="298" role="img" shape-rendering="crispEdges" aria-labelledby="t d"><title id="t">Tokens to answer 40 DABench questions (written by others)</title><desc id="d">Bars of total tokens on 40 DABench questions: pi 1,044,546, naive loop 1,060,944, leanloop 89,321.</desc>
+<style>
+.s{fill:#fcfcfb;stroke:#e2e8f0;stroke-width:1}.t{fill:#0f172a}.u{fill:#64748b}.m{fill:#94a3b8}.g{stroke:#e2e8f0;stroke-dasharray:2,2}.a{stroke:#475569;stroke-width:2}
+.b{fill:#64748b}
+.p{fill:#7c3aed}
+@media (prefers-color-scheme: dark){
+  .s{fill:#0f0e17;stroke:#2d2938}.t{fill:#f8fafc}.u{fill:#94a3b8}.g{stroke:#262330;stroke-dasharray:2,2}.a{stroke:#64748b;stroke-width:2}
+  .b{fill:#475569}
+  .p{fill:#a78bfa}
+}
+text{font-family:'Segoe UI Mono','Cascadia Code','Courier New',monospace}
+</style>
+<rect class="s" width="780" height="298" rx="0"/>
+<text class="t" x="24" y="32" font-size="15" font-weight="700">Tokens to answer 40 DABench questions (written by others)</text>
+<text class="u" x="24" y="52" font-size="11">Lower is better. Qwen3 8B through Ollama; the data file is named in the prompt, as the benchmark specifies.</text>
+<line class="a" x1="250.0" y1="70" x2="250.0" y2="264" stroke-width="1"/>
+<text class="m" x="250.0" y="284" font-size="11" text-anchor="middle">0</text>
+<line class="g" x1="376.6666666666667" y1="70" x2="376.6666666666667" y2="264" stroke-width="1"/>
+<text class="m" x="376.6666666666667" y="284" font-size="11" text-anchor="middle">400K</text>
+<line class="g" x1="503.33333333333337" y1="70" x2="503.33333333333337" y2="264" stroke-width="1"/>
+<text class="m" x="503.33333333333337" y="284" font-size="11" text-anchor="middle">800K</text>
+<line class="g" x1="630.0" y1="70" x2="630.0" y2="264" stroke-width="1"/>
+<text class="m" x="630.0" y="284" font-size="11" text-anchor="middle">1200K</text>
+<g><title>pi: 1,044,546 tokens, 14/40 correct</title>
+<text class="t" x="24" y="100" font-size="13" font-weight="400">pi (unmodified)</text>
+<text class="u" x="24" y="117" font-size="11">14/40 correct</text>
+<path class="b" d="M250,88 H577 V92 H581 V106 H577 V110 H250 Z"/>
+<text class="t" x="588.7728999999999" y="104" font-size="12" font-weight="400">1,044,546</text></g>
+<g><title>naive loop: 1,060,944 tokens, 15/40 correct</title>
+<text class="t" x="24" y="158" font-size="13" font-weight="400">naive loop</text>
+<text class="u" x="24" y="175" font-size="11">15/40 correct · full history re-sent</text>
+<path class="b" d="M250,146 H582 V150 H586 V164 H582 V168 H250 Z"/>
+<text class="t" x="593.9656" y="162" font-size="12" font-weight="400">1,060,944</text></g>
+<g><title>leanloop: 89,321 tokens, 24/40 correct</title>
+<text class="p" x="24" y="216" font-size="13" font-weight="700">leanloop</text>
+<text class="u" x="24" y="233" font-size="11">24/40 correct</text>
+<path class="p" d="M250,204 H274 V208 H278 V222 H274 V226 H250 Z"/>
+<text class="p" x="286.28498333333334" y="220" font-size="12" font-weight="700">89,321</text></g>
+</svg>

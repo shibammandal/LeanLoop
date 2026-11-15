@@ -1,0 +1,31 @@
+=== dabench_named_qwen3_lean 13:40:50
+   760 medium       -- calls= 1 tokens=   393 tier=1   8.6s 
+---
+correct:  24/40
+tokens:   89321
+calls:    97
+seconds:  955.6
+  easy   11/14
+  medium 8/13
+  hard   5/13
+=== dabench_named_coder_lean 13:56:48
+   760 medium       -- calls= 2 tokens=  1197 tier=1  19.1s 
+---
+correct:  25/40
+tokens:   51546
+calls:    79
+seconds:  748.6
+  easy   11/14
+  medium 9/13
+  hard   5/13
+=== traj_dabench_qwen3_pi 14:09:19
+   760 medium       -- calls= 4 tokens= 30308 tier=None 119.2s 
+---
+correct:  12/40
+tokens:   909131
+calls:    141
+seconds:  3501.0
+  easy   5/14
+  medium 5/13
+  hard   2/13
+=== ALL DONE 15:07:42

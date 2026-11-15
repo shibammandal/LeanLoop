@@ -1,0 +1,22 @@
+exp	correct	tokens	calls	seconds	status	description
+0	6	15569	31	89.9	keep	baseline (copy of lean mode from agent.py)
+1	5	17107	32	87.1	discard	system prompt: look at head first, find files, never reply with a plan
+2	8	23803	33	93.0	keep	workspace map (files, line counts, first line) in first message
+3	9	29964	35	123.9	keep	add python tool (+ prompt line: prefer python for parsing/counting)
+4	10	28399	35	120.8	keep	merge fetch+search into one view tool
+5	7	23332	31	108.5	discard	drop bash tool (python only)
+6	7	21777	32	110.0	discard	send file map only on first call
+7	9	35122	40	131.2	discard	nudge on give-up replies (max 2)
+noise	10,9	28395,25898	35,33	-	info	rerun exp 4 twice: only log_max_slow flips between runs
+8	10	28391	35	121.6	discard	view: show first+last regex hits, never page view output (same score)
+9	10	23779	31	102.8	keep	unescape double-escaped \n in python tool code
+10	11	24883	33	112.3	keep	compaction: keep last turn verbatim, squash older turns into one note (no LLM call)
+11	8	32373	41	149.6	discard	shorter system prompt (~40 tokens)
+test10	7/12	22322	31	102	info	HELD-OUT test of exp 10: pi 7/12 181459 tok; naive 7/12 24828; lean0 5/12 19020
+scorer	-	-	-	-	info	scorer fix: only strip thousands commas; all saved results re-scored (earlier numbers unchanged)
+12	11	6568	15	63.6	keep	X factor: program-first cascade (1 call, no tool schemas, keyword evidence, stdout=answer; 1 repair; agent-loop fallback)
+docs	-	-	-	-	info	docs+injection bench (research/docs_eval.py, 24 runs/mode): full 21/24 2891 tok/q; rag2 20/24 620; span 21/24 189 (-93%); generic injection 0/24 for span, topical poisoning 3/24 not stopped
+after-docs	9/12	7324	16	63.8	info	lean test rerun after doc tier: same 9/12; 4 tasks flip both ways (run-to-run noise), cfg_setting wandered 5 calls
+robust	9/12	5859-8649	14-18	56-68	info	robustness pass: safety.py (read-only AST check, risky-action approval, env scrub, -I child), CRLF leak fixed, UTF-8, binary/hidden/huge files, Ollama errors, missing-file route, 79 tests; test tokens vary 5.9k-8.6k across identical-prompt runs
+sample-hint	9/12	16985	28	93	discard	add first-lines sample to repair message: test tokens 8649 -> 16985, no accuracy gain
+docs-rerun	-	-	-	-	info	docs bench rerun after prune rewrite: span 21/24 189 tok/q 0 injected (identical); full 20/24 2 injected; rag2 19/24 4 poisoned

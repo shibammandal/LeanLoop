@@ -1,0 +1,48 @@
+  email00 Task Automat    calls= 2 tokens=  8890 tier=None  17.1s 
+  email01 Business Int    calls= 2 tokens=  9582 tier=None  26.1s 
+  email02 Conversation    calls= 2 tokens=  9579 tier=None  28.0s 
+  email03 Research Ass    calls= 2 tokens=  9084 tier=None  22.8s 
+  email04 Sentiment An    calls= 2 tokens= 10471 tier=None  52.5s 
+  email05 Information     calls= 2 tokens=  9666 tier=None  33.4s 
+  email06 Marketing &     calls= 2 tokens=  8884 tier=None  15.7s 
+  email07 Entertainmen    calls= 2 tokens=  9176 tier=None  23.9s 
+  email08 Scams & Frau    calls= 2 tokens=  9033 tier=None  22.8s 
+  email09 Misinformati    calls= 2 tokens=  9413 tier=None  28.5s 
+  email10 Task Automat    calls= 2 tokens=  9526 tier=None  38.4s 
+  email11 Business Int    calls= 5 tokens= 24056 tier=None  41.6s 
+  email12 Conversation    calls= 2 tokens=  8839 tier=None  20.1s 
+  email13 Research Ass    calls= 2 tokens=  9106 tier=None  21.8s 
+  email14 Sentiment An    calls= 2 tokens=  9019 tier=None  21.4s 
+  email15 Information     calls= 2 tokens=  9656 tier=None  30.9s 
+  email16 Marketing &     calls= 3 tokens= 15044 tier=None  49.9s 
+  email17 Entertainmen    calls= 2 tokens=  9558 tier=None  31.8s 
+  email18 Scams & Frau    calls= 6 tokens= 28322 tier=None  43.3s 
+  email19 Misinformati    calls= 2 tokens=  9691 tier=None  39.4s 
+  table20 Task Automat    calls= 3 tokens= 13381 tier=None  23.4s 
+  table21 Business Int    calls= 2 tokens=  9293 tier=None  17.0s 
+  table22 Conversation    calls= 2 tokens=  8843 tier=None  17.2s 
+  table23 Research Ass    calls= 4 tokens= 19049 tier=None  35.3s 
+  table24 Sentiment An    calls= 2 tokens=  9795 tier=None  25.0s 
+  table25 Information     calls= 5 tokens= 25041 tier=None  61.3s 
+  table26 Marketing &     calls= 2 tokens=  9065 tier=None  12.7s 
+  table27 Entertainmen    calls= 1 tokens=  4224 tier=None   9.5s 
+  table28 Scams & Frau    calls= 2 tokens=  9827 tier=None  32.7s 
+  table29 Misinformati    calls= 2 tokens= 10834 tier=None  52.6s 
+  table30 Task Automat    calls= 2 tokens=  9303 tier=None  21.8s 
+  table31 Business Int    calls= 2 tokens=  9991 tier=None  34.9s 
+  table32 Conversation    calls= 2 tokens=  9875 tier=None  35.3s 
+  table33 Research Ass    calls= 3 tokens= 12698 tier=None  11.6s 
+  table34 Sentiment An    calls= 2 tokens=  9160 tier=None  20.4s 
+  table35 Information     calls= 2 tokens=  9235 tier=None  18.9s 
+  table36 Marketing &     calls= 3 tokens= 15838 tier=None  58.2s 
+  table37 Entertainmen    calls= 4 tokens= 19926 tier=None  40.4s 
+  table38 Scams & Frau    calls= 2 tokens=  9242 tier=None  28.1s 
+  table39 Misinformati    calls= 2 tokens=  9931 tier=None  31.0s 
+---
+correct:  0/40
+tokens:   461146
+calls:    97
+seconds:  1196.9
+  easy   0/0
+  medium 0/0
+  hard   0/0

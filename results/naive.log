@@ -1,0 +1,5 @@
+log_top_error      naive steps= 2 tokens=   688    6.8s correct=False overflow=False
+log_services       naive steps= 2 tokens=   611    5.4s correct=False overflow=False
+csv_top_region     naive steps= 2 tokens=   686    6.0s correct=False overflow=False
+code_find          naive steps= 4 tokens=  1382   10.7s correct=False overflow=False
+config_effective   naive steps= 2 tokens=   616    5.0s correct=True overflow=False

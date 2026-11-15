@@ -1,0 +1,8 @@
+     0 easy         ok calls= 1 tokens=   290 tier=1   4.5s 
+     6 medium       -- calls= 1 tokens=   531 tier=1   8.0s 
+    58 easy         ok calls= 1 tokens=   560 tier=1   6.1s 
+    64 easy         -- calls= 0 tokens=     0 tier=0   0.0s 
+    69 medium       -- calls= 0 tokens=     0 tier=0   0.0s 
+   105 medium       ok calls= 1 tokens=   378 tier=1   5.1s 
+   116 medium       ok calls= 1 tokens=   373 tier=1   5.3s 
+   118 hard         ok calls= 2 tokens=  1196 tier=1  17.4s 

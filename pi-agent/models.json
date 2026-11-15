@@ -1,0 +1,21 @@
+{
+  "$schema": "https://pi.dev/schemas/models.schema.json",
+  "providers": {
+    "ollama": {
+      "baseUrl": "http://localhost:11434/v1",
+      "api": "openai-completions",
+      "apiKey": "ollama",
+      "models": [
+        {
+          "id": "qwen3-8b-8k"
+        },
+        {
+          "id": "qwen3:8b"
+        },
+        {
+          "id": "qwen25-coder-8k"
+        }
+      ]
+    }
+  }
+}

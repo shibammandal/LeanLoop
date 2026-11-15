@@ -1,0 +1,26 @@
+[
+ {
+  "label": "leanloop(Qwen3)",
+  "n": 40,
+  "budgets": {
+   "no_budget": 24,
+   "1": 18,
+   "2": 22,
+   "3": 22,
+   "4": 24,
+   "6": 24,
+   "10": 24
+  },
+  "auditkit_success": 24,
+  "agree_with_own_scorer": 40,
+  "tokens_total": 89321,
+  "tokens_per_success": 3722,
+  "coverage": [
+   "full"
+  ],
+  "n_tool_calls": 93,
+  "statuses": {
+   "completed": 40
+  }
+ }
+]

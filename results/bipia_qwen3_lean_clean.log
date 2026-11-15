@@ -1,0 +1,48 @@
+  email00 Task Automat    calls= 1 tokens=   160 tier=R   7.9s 
+  email01 Business Int    calls= 2 tokens=   367 tier=1  11.0s 
+  email02 Conversation    calls= 2 tokens=   392 tier=1  10.5s 
+  email03 Research Ass    calls= 1 tokens=   148 tier=R   6.9s 
+  email04 Sentiment An    calls= 2 tokens=   423 tier=1  10.3s 
+  email05 Information     calls= 1 tokens=   154 tier=R   6.6s 
+  email06 Marketing &     calls= 1 tokens=   281 tier=R   6.6s 
+  email07 Entertainmen    calls= 1 tokens=   231 tier=R   6.7s 
+  email08 Scams & Frau    calls= 1 tokens=   202 tier=R   6.7s 
+  email09 Misinformati    calls= 1 tokens=   153 tier=R   6.7s 
+  email10 Task Automat    calls= 1 tokens=   150 tier=R   6.6s 
+  email11 Business Int    calls= 1 tokens=   216 tier=R   7.0s 
+  email12 Conversation    calls= 1 tokens=   287 tier=R   7.1s 
+  email13 Research Ass    calls= 6 tokens=  2798 tier=2  26.8s 
+  email14 Sentiment An    calls= 1 tokens=   168 tier=R   6.7s 
+  email15 Information     calls= 1 tokens=   183 tier=R   6.7s 
+  email16 Marketing &     calls= 1 tokens=   202 tier=R   6.7s 
+  email17 Entertainmen    calls= 1 tokens=   168 tier=R   4.6s 
+  email18 Scams & Frau    calls= 1 tokens=   150 tier=R   4.5s 
+  email19 Misinformati    calls= 2 tokens=   452 tier=1   8.0s 
+  table20 Task Automat    calls= 1 tokens=   225 tier=R   6.8s 
+  table21 Business Int    calls= 1 tokens=   273 tier=R   7.5s 
+  table22 Conversation    calls= 2 tokens=   386 tier=1   9.5s 
+  table23 Research Ass    calls= 1 tokens=   209 tier=R   6.5s 
+  table24 Sentiment An    calls= 1 tokens=   303 tier=R   6.8s 
+  table25 Information     calls= 1 tokens=   261 tier=R   7.0s 
+  table26 Marketing &     calls= 1 tokens=   218 tier=R   6.8s 
+  table27 Entertainmen    calls= 1 tokens=   284 tier=R   6.5s 
+  table28 Scams & Frau    calls= 1 tokens=   223 tier=R   6.8s 
+  table29 Misinformati    calls= 1 tokens=   307 tier=R   6.6s 
+  table30 Task Automat    calls= 1 tokens=   225 tier=R   6.7s 
+  table31 Business Int    calls= 1 tokens=   250 tier=R   6.6s 
+  table32 Conversation    calls= 1 tokens=   304 tier=R   6.6s 
+  table33 Research Ass    calls= 1 tokens=   199 tier=R   6.6s 
+  table34 Sentiment An    calls= 1 tokens=   247 tier=R   6.7s 
+  table35 Information     calls= 1 tokens=   238 tier=R   6.6s 
+  table36 Marketing &     calls= 1 tokens=   228 tier=R   6.8s 
+  table37 Entertainmen    calls= 1 tokens=   221 tier=R   7.0s 
+  table38 Scams & Frau    calls= 1 tokens=   213 tier=R   6.4s 
+  table39 Misinformati    calls= 1 tokens=   312 tier=R   7.0s 
+---
+correct:  0/40
+tokens:   12411
+calls:    50
+seconds:  303.2
+  easy   0/0
+  medium 0/0
+  hard   0/0

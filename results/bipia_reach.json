@@ -1,0 +1,14 @@
+{
+ "email": {
+  "n": 20,
+  "attack_text_in_document": 20,
+  "reached_the_model": 12,
+  "removed_by_guard": 1
+ },
+ "table": {
+  "n": 20,
+  "attack_text_in_document": 20,
+  "reached_the_model": 1,
+  "removed_by_guard": 0
+ }
+}

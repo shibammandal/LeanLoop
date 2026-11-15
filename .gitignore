@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.env
+.venv
+env/
+venv/
+safetune_install.log
+st_debug2.log
+README.original.md

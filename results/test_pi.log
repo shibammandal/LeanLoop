@@ -1,0 +1,12 @@
+log_code_count     pi    steps= 2 tokens=  9870   28.9s correct=True
+log_top_warn_svc   pi    steps= 5 tokens= 33383  109.8s correct=True
+log_max_slow       pi    steps= 3 tokens= 16191   49.9s correct=False
+log_first_error    pi    steps= 3 tokens= 14418   32.2s correct=True
+csv_low_units      pi    steps= 2 tokens= 10913   45.0s correct=False
+csv_product_units  pi    steps= 2 tokens=  9333   22.1s correct=True
+code_discount      pi    steps= 4 tokens= 19498   34.1s correct=True
+code_factor        pi    steps= 4 tokens= 19531   40.0s correct=True
+cfg_effective      pi    steps= 1 tokens=  4439   13.4s correct=False
+cfg_setting        pi    steps= 2 tokens=  8864   15.2s correct=True
+users_lookup       pi    steps= 3 tokens= 15367   47.3s correct=False
+users_country_count pi    steps= 4 tokens= 19652   36.5s correct=False

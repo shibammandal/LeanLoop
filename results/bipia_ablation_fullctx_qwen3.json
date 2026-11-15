@@ -1,0 +1,8 @@
+{
+ "model": "qwen3-8b-8k",
+ "n": 40,
+ "utility": 18,
+ "asr": 3,
+ "tokens": 16659,
+ "calls": 40
+}

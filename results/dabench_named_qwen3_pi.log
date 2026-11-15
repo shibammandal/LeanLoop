@@ -1,0 +1,48 @@
+     0 easy   ok calls= 4 tokens= 26996 tier=None  75.0s 
+     6 medium ok calls= 2 tokens=  9601 tier=None  25.7s 
+    58 easy   -- calls= 2 tokens= 12281 tier=None  64.3s 
+    64 easy   -- calls= 2 tokens=  9435 tier=None  23.5s 
+    69 medium -- calls=12 tokens= 88657 tier=None 159.2s 
+   105 medium ok calls= 3 tokens= 19000 tier=None  80.2s 
+   116 medium -- calls= 3 tokens= 17068 tier=None  97.6s 
+   118 hard   ok calls= 4 tokens= 25778 tier=None  85.1s 
+   125 hard   -- calls= 2 tokens= 10334 tier=None  35.3s 
+   218 easy   -- calls= 8 tokens= 59610 tier=None 172.4s 
+   243 easy   -- calls= 2 tokens= 10892 tier=None  49.4s 
+   244 medium -- calls= 5 tokens= 34942 tier=None  94.7s 
+   272 medium ok calls= 2 tokens= 10693 tier=None  44.6s 
+   337 medium ok calls= 3 tokens= 20457 tier=None  94.6s 
+   352 easy   ok calls= 2 tokens= 13520 tier=None  83.3s 
+   375 medium -- calls= 7 tokens= 46885 tier=None 121.9s 
+   376 hard   ok calls= 2 tokens= 10066 tier=None  32.5s 
+   378 hard   -- calls= 6 tokens= 45427 tier=None 214.4s 
+   428 hard   ok calls= 5 tokens= 33930 tier=None 102.8s 
+   429 hard   -- calls= 7 tokens= 48569 tier=None 119.8s 
+   431 hard   -- calls= 3 tokens= 21538 tier=None 105.3s 
+   453 hard   -- calls= 5 tokens= 36150 tier=None  98.5s 
+   466 medium -- calls= 9 tokens= 66899 tier=None 174.9s 
+   473 easy   ok calls= 3 tokens= 17928 tier=None  67.4s 
+   492 easy   -- calls= 2 tokens= 12372 tier=None  66.0s 
+   520 medium ok calls= 2 tokens=  9881 tier=None  29.5s 
+   542 easy   ok calls= 2 tokens= 10759 tier=None  41.8s 
+   550 hard   -- calls= 3 tokens= 19362 tier=None  81.0s 
+   553 easy   -- calls= 5 tokens= 33934 tier=None 182.7s 
+   554 easy   -- calls= 5 tokens= 37017 tier=None 147.4s 
+   587 medium -- calls= 6 tokens= 43576 tier=None 157.1s 
+   619 hard   -- calls= 4 tokens= 27726 tier=None  92.1s 
+   649 easy   -- calls= 8 tokens= 59771 tier=None 233.9s 
+   650 easy   ok calls= 3 tokens= 15967 tier=None  51.7s 
+   659 easy   -- calls= 1 tokens=  4707 tier=None  20.8s 
+   662 hard   -- calls= 1 tokens=  4616 tier=None  16.5s 
+   671 hard   -- calls= 3 tokens= 16019 tier=None  65.5s 
+   721 medium ok calls= 2 tokens=  9185 tier=None  21.7s 
+   727 hard   -- calls= 2 tokens=  9897 tier=None  36.6s 
+   760 medium -- calls= 5 tokens= 33101 tier=None 128.0s 
+---
+correct:  14/40
+tokens:   1044546
+calls:    157
+seconds:  3595.0
+  easy   5/14
+  medium 6/13
+  hard   3/13

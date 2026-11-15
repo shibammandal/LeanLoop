@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 414" width="780" height="414" role="img" shape-rendering="crispEdges" aria-labelledby="t d"><title id="t">Planted instructions followed, out of 40 (BIPIA)</title><desc id="d">Bars of planted instructions followed out of 40: pi 13 and 14 on two document sets, whole document with strict prompt 3, leanloop 0 and 1.</desc>
+<style>
+.s{fill:#fcfcfb;stroke:#e2e8f0;stroke-width:1}.t{fill:#0f172a}.u{fill:#64748b}.m{fill:#94a3b8}.g{stroke:#e2e8f0;stroke-dasharray:2,2}.a{stroke:#475569;stroke-width:2}
+.b{fill:#64748b}
+.p{fill:#7c3aed}
+@media (prefers-color-scheme: dark){
+  .s{fill:#0f0e17;stroke:#2d2938}.t{fill:#f8fafc}.u{fill:#94a3b8}.g{stroke:#262330;stroke-dasharray:2,2}.a{stroke:#64748b;stroke-width:2}
+  .b{fill:#475569}
+  .p{fill:#a78bfa}
+}
+text{font-family:'Segoe UI Mono','Cascadia Code','Courier New',monospace}
+</style>
+<rect class="s" width="780" height="414" rx="0"/>
+<text class="t" x="24" y="32" font-size="15" font-weight="700">Planted instructions followed, out of 40 (BIPIA)</text>
+<text class="u" x="24" y="52" font-size="11">Lower is better. Qwen3 8B throughout. Two different sets of 40 documents; judge is a local model using BIPIA&#x27;s prompts.</text>
+<line class="a" x1="250.0" y1="70" x2="250.0" y2="380" stroke-width="1"/>
+<text class="m" x="250.0" y="400" font-size="11" text-anchor="middle">0</text>
+<line class="g" x1="345.0" y1="70" x2="345.0" y2="380" stroke-width="1"/>
+<text class="m" x="345.0" y="400" font-size="11" text-anchor="middle">10</text>
+<line class="g" x1="440.0" y1="70" x2="440.0" y2="380" stroke-width="1"/>
+<text class="m" x="440.0" y="400" font-size="11" text-anchor="middle">20</text>
+<line class="g" x1="535.0" y1="70" x2="535.0" y2="380" stroke-width="1"/>
+<text class="m" x="535.0" y="400" font-size="11" text-anchor="middle">30</text>
+<line class="g" x1="630.0" y1="70" x2="630.0" y2="380" stroke-width="1"/>
+<text class="m" x="630.0" y="400" font-size="11" text-anchor="middle">40</text>
+<g><title>pi (unmodified), first documents: followed 13 of 40 planted instructions</title>
+<text class="t" x="24" y="100" font-size="13" font-weight="400">pi (unmodified), first documents</text>
+<text class="u" x="24" y="117" font-size="11">answered 21/40 questions</text>
+<path class="b" d="M250,88 H370 V92 H374 V106 H370 V110 H250 Z"/>
+<text class="t" x="381.5" y="104" font-size="12" font-weight="400">13 / 40</text></g>
+<g><title>pi (unmodified), fresh documents: followed 14 of 40 planted instructions</title>
+<text class="t" x="24" y="158" font-size="13" font-weight="400">pi (unmodified), fresh documents</text>
+<text class="u" x="24" y="175" font-size="11">answered 19/40 questions</text>
+<path class="b" d="M250,146 H379 V150 H383 V164 H379 V168 H250 Z"/>
+<text class="t" x="391.0" y="162" font-size="12" font-weight="400">14 / 40</text></g>
+<g><title>Whole document, strict prompt: followed 3 of 40 planted instructions</title>
+<text class="t" x="24" y="216" font-size="13" font-weight="400">Whole document, strict prompt</text>
+<text class="u" x="24" y="233" font-size="11">first documents · answered 18/40</text>
+<path class="b" d="M250,204 H274 V208 H278 V222 H274 V226 H250 Z"/>
+<text class="t" x="286.5" y="220" font-size="12" font-weight="400">3 / 40</text></g>
+<g><title>leanloop, first documents: followed 0 of 40 planted instructions</title>
+<text class="p" x="24" y="274" font-size="13" font-weight="700">leanloop, first documents</text>
+<text class="u" x="24" y="291" font-size="11">answered 16/40 · document pruned to 5 sentences</text>
+<path class="p" d="M250,262 H253 V284 H250 Z"/>
+<text class="p" x="258.0" y="278" font-size="12" font-weight="700">0 / 40</text></g>
+<g><title>leanloop, fresh documents: followed 1 of 40 planted instructions</title>
+<text class="p" x="24" y="332" font-size="13" font-weight="700">leanloop, fresh documents</text>
+<text class="u" x="24" y="349" font-size="11">answered 17/40 · document pruned to 5 sentences</text>
+<path class="p" d="M250,320 H256 V324 H260 V338 H256 V342 H250 Z"/>
+<text class="p" x="267.5" y="336" font-size="12" font-weight="700">1 / 40</text></g>
+</svg>

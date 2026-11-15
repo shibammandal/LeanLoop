@@ -1,0 +1,18 @@
+[project]
+name = "leanloop"
+version = "0.1.0"
+description = "A token-lean coding agent harness for local models (program-first cascade)"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Shibam Mandal" }]
+dependencies = ["rich", "prompt_toolkit"]
+
+[project.scripts]
+leanloop = "leanloop.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

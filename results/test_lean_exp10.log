@@ -1,0 +1,36 @@
+    [1] python {"code": "import re\n\n# Read the app.log file\nwith open('app.log', 'r') as file:\n    lines = file.readlines()\n\n# Count lines with 'ERROR' and 'code=E105'\ncount = 0\nfor line in lines:\n    if 'E
+  log_code_count       ok calls= 2 tokens=  1406   7.5s
+    [1] python {"code": "import pandas as pd\n\n# Read the app.log file into a DataFrame\nlog_data = pd.read_csv('app.log', header=None, names=['timestamp', 'level', 'message'])\n\n# Count the number of WARN lines\n
+  log_top_warn_svc     -- calls= 2 tokens=  1381   7.7s
+    [1] bash {"command": "grep 'WARN' app.log | grep 'auth' | awk '{print $6}' | sort -n | tail -n 1"}
+  log_max_slow         -- calls= 2 tokens=  1305   6.1s
+    [1] read_file {"path": "app.log"}
+    [2] python {"code": "with open('app.log', 'r') as f:\\n    lines = f.readlines()\\n    for line in lines:\\n        if 'ERROR' in line:\\n            print(line.split(']')[1].split(':')[0])\\n            break"}
+  log_first_error      ok calls= 3 tokens=  2247   9.0s
+    [1] python {"code": "import pandas as pd\n\n# Load the sales data\ndf = pd.read_csv('sales.csv')\n\n# Calculate total units sold per region\ntotal_units = df.groupby('region')['units'].sum()\n\n# Find the region
+    [2] python {"code": "import pandas as pd\n\n# Load the sales data\ndf = pd.read_csv('sales.csv')\n\n# Calculate total units sold per region\ntotal_units = df.groupby('region')['units'].sum()\n\n# Find the region
+  csv_low_units        -- calls= 3 tokens=  2206  12.1s
+    [1] python {"code": "import pandas as pd\n\n# Load the sales data\ndf = pd.read_csv('sales.csv')\n\n# Filter for product P12 and sum the units sold\nunits_sold = df[df['product'] == 'P12']['units'].sum()\n\nprin
+  csv_product_units    ok calls= 2 tokens=  1359   7.6s
+    [1] read_file {"path": "config/default.yaml"}
+    [2] read_file {"path": "config/prod.yaml"}
+  code_discount        -- calls= 3 tokens=  2172   8.7s
+    [1] read_file {"path": "src/util/dates.py"}
+  code_factor          ok calls= 2 tokens=  1375   5.4s
+    [1] read_file {"path": "config/default.yaml"}
+    [2] read_file {"path": "config/prod.yaml"}
+    [3] python {"code": "import yaml\n\n# Load default settings\ndefault_settings = yaml.safe_load(open('config/default.yaml'))\n\n# Load production overrides\nprod_overrides = yaml.safe_load(open('config/prod.yaml'
+  cfg_effective        ok calls= 4 tokens=  3107  12.9s
+    [1] read_file {"path": "config/default.yaml"}
+    [2] view {"start": 67, "end": 67, "handle": 1}
+  cfg_setting          -- calls= 3 tokens=  2160   8.0s
+    [1] read_file {"path": "users.csv"}
+    [2] python {"code": "import pandas as pd\nusers_df = pd.read_csv('users.csv')\nuser_plan = users_df[users_df['id'] == 1388]['plan'].iloc[0]\nprint(user_plan)"}
+  users_lookup         ok calls= 3 tokens=  2265   9.5s
+    [1] python {"code": "import pandas as pd\n\n# Load the users.csv file\ndf = pd.read_csv('users.csv')\n\n# Count the number of users from Japan\njapan_users = df[df['country'] == 'Japan'].shape[0]\n\nprint(japan_
+  users_country_count  ok calls= 2 tokens=  1339   7.1s
+---
+correct:  7/12
+tokens:   22322
+calls:    31
+seconds:  101.5

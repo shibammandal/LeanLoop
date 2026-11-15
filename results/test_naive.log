@@ -1,0 +1,17 @@
+  log_code_count       ok calls= 2 tokens=   630   5.7s
+  log_top_warn_svc     -- calls= 3 tokens=  1012   8.8s
+  log_max_slow         -- calls= 3 tokens=  7741  10.5s
+  log_first_error      ok calls= 2 tokens=  3988   8.5s
+  csv_low_units        -- calls= 2 tokens=   674   6.3s
+  csv_product_units    ok calls= 2 tokens=   643   5.5s
+  code_discount        -- calls= 4 tokens=  1382  10.6s
+  code_factor          -- calls= 1 tokens=   324   3.3s
+  cfg_effective        ok calls= 3 tokens=  1780   7.9s
+  cfg_setting          ok calls= 2 tokens=  1388   5.5s
+  users_lookup         ok calls= 2 tokens=  4673  11.1s
+  users_country_count  ok calls= 2 tokens=   593   5.8s
+---
+correct:  7/12
+tokens:   24828
+calls:    28
+seconds:  89.5

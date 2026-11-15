@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 298" width="780" height="298" role="img" shape-rendering="crispEdges" aria-labelledby="t d"><title id="t">Tokens the model reads per document question</title><desc id="d">Bars of model tokens per question: all documents 2,891, top-2 documents 620, micro-spans 189.</desc>
+<style>
+.s{fill:#fcfcfb;stroke:#e2e8f0;stroke-width:1}.t{fill:#0f172a}.u{fill:#64748b}.m{fill:#94a3b8}.g{stroke:#e2e8f0;stroke-dasharray:2,2}.a{stroke:#475569;stroke-width:2}
+.b{fill:#64748b}
+.p{fill:#7c3aed}
+@media (prefers-color-scheme: dark){
+  .s{fill:#0f0e17;stroke:#2d2938}.t{fill:#f8fafc}.u{fill:#94a3b8}.g{stroke:#262330;stroke-dasharray:2,2}.a{stroke:#64748b;stroke-width:2}
+  .b{fill:#475569}
+  .p{fill:#a78bfa}
+}
+text{font-family:'Segoe UI Mono','Cascadia Code','Courier New',monospace}
+</style>
+<rect class="s" width="780" height="298" rx="0"/>
+<text class="t" x="24" y="32" font-size="15" font-weight="700">Tokens the model reads per document question</text>
+<text class="u" x="24" y="52" font-size="11">Lower is better. 8 questions x 3 workspaces (clean, injected, poisoned), 10 documents of ~2,000 words in total.</text>
+<line class="a" x1="250.0" y1="70" x2="250.0" y2="264" stroke-width="1"/>
+<text class="m" x="250.0" y="284" font-size="11" text-anchor="middle">0</text>
+<line class="g" x1="376.6666666666667" y1="70" x2="376.6666666666667" y2="264" stroke-width="1"/>
+<text class="m" x="376.6666666666667" y="284" font-size="11" text-anchor="middle">1K</text>
+<line class="g" x1="503.33333333333337" y1="70" x2="503.33333333333337" y2="264" stroke-width="1"/>
+<text class="m" x="503.33333333333337" y="284" font-size="11" text-anchor="middle">2K</text>
+<line class="g" x1="630.0" y1="70" x2="630.0" y2="264" stroke-width="1"/>
+<text class="m" x="630.0" y="284" font-size="11" text-anchor="middle">3K</text>
+<g><title>all documents: 2,891 tokens per question</title>
+<text class="t" x="24" y="100" font-size="13" font-weight="400">All documents sent</text>
+<text class="u" x="24" y="117" font-size="11">20–21/24 correct</text>
+<path class="b" d="M250,88 H612 V92 H616 V106 H612 V110 H250 Z"/>
+<text class="t" x="624.1933333333334" y="104" font-size="12" font-weight="400">2,891</text></g>
+<g><title>top-2 documents: 620 tokens per question</title>
+<text class="t" x="24" y="158" font-size="13" font-weight="400">Top-2 whole documents</text>
+<text class="u" x="24" y="175" font-size="11">19–20/24 correct</text>
+<path class="b" d="M250,146 H325 V150 H329 V164 H325 V168 H250 Z"/>
+<text class="t" x="336.5333333333333" y="162" font-size="12" font-weight="400">620</text></g>
+<g><title>micro-spans: 189 tokens per question</title>
+<text class="p" x="24" y="216" font-size="13" font-weight="700">Micro-spans (leanloop)</text>
+<text class="u" x="24" y="233" font-size="11">21/24 correct · 0 generic injections won</text>
+<path class="p" d="M250,204 H270 V208 H274 V222 H270 V226 H250 Z"/>
+<text class="p" x="281.94" y="220" font-size="12" font-weight="700">189</text></g>
+</svg>

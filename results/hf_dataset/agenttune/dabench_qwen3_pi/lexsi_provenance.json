@@ -1,0 +1,8 @@
+{
+ "library": "leanloop",
+ "version": "0.1.0",
+ "base_model": "qwen3-8b-8k",
+ "method": "pi harness (no training)",
+ "training_dataset": null,
+ "note": "AgentTune-compatible trajectory file written by leanloop's exporter, not by AgentTune"
+}

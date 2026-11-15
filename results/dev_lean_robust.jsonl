@@ -1,0 +1,12 @@
+{"task": "log_code_count", "correct": true, "calls": 1, "prompt_tokens": 369, "completion_tokens": 56, "tokens": 425, "seconds": 4.0, "overflow": false, "error": null, "final": "48"}
+{"task": "log_top_error_svc", "correct": true, "calls": 1, "prompt_tokens": 365, "completion_tokens": 91, "tokens": 456, "seconds": 4.2, "overflow": false, "error": null, "final": "gateway: 44"}
+{"task": "log_max_slow", "correct": false, "calls": 4, "prompt_tokens": 2125, "completion_tokens": 224, "tokens": 2349, "seconds": 13.7, "overflow": false, "error": null, "final": "The largest slow response time on WARN lines for the gateway service in app.log is 1200 ms."}
+{"task": "log_last_error", "correct": false, "calls": 1, "prompt_tokens": 367, "completion_tokens": 41, "tokens": 408, "seconds": 3.6, "overflow": false, "error": null, "final": "428ms"}
+{"task": "csv_top_revenue", "correct": true, "calls": 1, "prompt_tokens": 267, "completion_tokens": 52, "tokens": 319, "seconds": 5.4, "overflow": false, "error": null, "final": "Central"}
+{"task": "csv_product_rows", "correct": true, "calls": 1, "prompt_tokens": 263, "completion_tokens": 59, "tokens": 322, "seconds": 4.0, "overflow": false, "error": null, "final": "13"}
+{"task": "code_tax", "correct": true, "calls": 5, "prompt_tokens": 2991, "completion_tokens": 215, "tokens": 3206, "seconds": 15.8, "overflow": false, "error": null, "final": "The function `compute_tax` is defined in the file `src/billing/tax.py`. Its default tax rate is `0.18` (or 18%)."}
+{"task": "code_factor", "correct": true, "calls": 1, "prompt_tokens": 363, "completion_tokens": 9, "tokens": 372, "seconds": 2.8, "overflow": false, "error": null, "final": "2"}
+{"task": "cfg_effective", "correct": true, "calls": 1, "prompt_tokens": 296, "completion_tokens": 11, "tokens": 307, "seconds": 2.7, "overflow": false, "error": null, "final": "200"}
+{"task": "cfg_setting", "correct": true, "calls": 1, "prompt_tokens": 269, "completion_tokens": 53, "tokens": 322, "seconds": 3.5, "overflow": false, "error": null, "final": "97"}
+{"task": "users_lookup", "correct": true, "calls": 1, "prompt_tokens": 304, "completion_tokens": 53, "tokens": 357, "seconds": 3.7, "overflow": false, "error": null, "final": "Brazil"}
+{"task": "users_plan_count", "correct": true, "calls": 1, "prompt_tokens": 323, "completion_tokens": 58, "tokens": 381, "seconds": 3.7, "overflow": false, "error": null, "final": "442"}

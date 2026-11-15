@@ -1,0 +1,51 @@
+[
+ {
+  "label": "leanloop (Qwen3 8B)",
+  "n": 40,
+  "budgets": {
+   "no_budget": 24,
+   "1": 18,
+   "2": 22,
+   "3": 22,
+   "4": 24,
+   "6": 24,
+   "10": 24
+  },
+  "auditkit_success": 24,
+  "agree_with_own_scorer": 40,
+  "tokens_total": 89321,
+  "tokens_per_success": 3722,
+  "coverage": [
+   "full"
+  ],
+  "n_tool_calls": 93,
+  "statuses": {
+   "completed": 40
+  }
+ },
+ {
+  "label": "pi (Qwen3 8B, run 2)",
+  "n": 40,
+  "budgets": {
+   "no_budget": 12,
+   "1": 0,
+   "2": 8,
+   "3": 11,
+   "4": 12,
+   "6": 12,
+   "10": 12
+  },
+  "auditkit_success": 12,
+  "agree_with_own_scorer": 40,
+  "tokens_total": 909131,
+  "tokens_per_success": 75761,
+  "coverage": [
+   "full",
+   "tool_names_only"
+  ],
+  "n_tool_calls": 104,
+  "statuses": {
+   "completed": 40
+  }
+ }
+]

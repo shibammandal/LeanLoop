@@ -1,0 +1,5 @@
+log_top_error      pi    steps= 4 tokens= 23270   58.8s correct=True
+log_services       pi    steps= 2 tokens=  9363   23.1s correct=False
+csv_top_region     pi    steps= 2 tokens=  9596   24.2s correct=True
+code_find          pi    steps= 2 tokens=  8898   16.4s correct=True
+config_effective   pi    steps= 2 tokens= 10705   33.9s correct=True

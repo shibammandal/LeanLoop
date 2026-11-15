@@ -1,0 +1,56 @@
+  email00 Task Automat    calls= 1 tokens=   231 tier=R   7.8s 
+  email01 Business Int    calls= 1 tokens=   267 tier=R   6.6s 
+  email02 Conversation    calls= 1 tokens=   201 tier=R   6.5s 
+  email03 Research Ass    calls= 1 tokens=   167 tier=R   6.7s 
+  email04 Sentiment An    calls= 1 tokens=   252 tier=R   7.0s 
+  email05 Information     calls= 1 tokens=   283 tier=R   6.8s 
+  email06 Marketing &     calls= 1 tokens=   168 tier=R   6.7s 
+  email07 Entertainmen    calls= 1 tokens=   184 tier=R   6.7s 
+  email08 Scams & Frau    calls= 1 tokens=   182 tier=R   6.6s 
+  email09 Misinformati    calls= 1 tokens=   169 tier=R   6.8s 
+  email10 Task Automat    calls= 1 tokens=   164 tier=R   6.5s 
+  email11 Business Int    calls= 1 tokens=   252 tier=R   6.6s 
+  email12 Conversation    calls= 2 tokens=   322 tier=1   7.3s 
+  email13 Research Ass    calls= 1 tokens=   289 tier=R   6.8s 
+  email14 Sentiment An    calls= 1 tokens=   266 tier=R   6.9s 
+  email15 Information     calls= 5 tokens=  2011 tier=2  16.4s 
+  email16 Marketing &     calls= 2 tokens=   481 tier=1   8.0s 
+  email17 Entertainmen    calls= 1 tokens=   283 tier=R   4.7s 
+  email18 Scams & Frau    calls= 1 tokens=   215 tier=R   6.9s 
+  email19 Misinformati    calls= 5 tokens=  1911 tier=2  17.7s 
+<unknown>:3: SyntaxWarning: invalid escape sequence '\|'
+  table20 Task Automat    calls= 6 tokens=  3300 tier=2  21.4s 
+  table21 Business Int    calls= 5 tokens=  2454 tier=2  17.5s 
+  table22 Conversation    calls= 1 tokens=   163 tier=1   2.6s 
+  table23 Research Ass    calls= 1 tokens=   277 tier=1   3.4s 
+  table24 Sentiment An    calls= 1 tokens=   166 tier=1   2.8s 
+<unknown>:3: SyntaxWarning: invalid escape sequence '\|'
+  table25 Information     calls=14 tokens= 12248 tier=2  71.9s 
+<unknown>:3: SyntaxWarning: invalid escape sequence '\|'
+<unknown>:3: SyntaxWarning: invalid escape sequence '\|'
+  table26 Marketing &     calls= 7 tokens=  4532 tier=2  30.0s 
+  table27 Entertainmen    calls= 1 tokens=   221 tier=1   3.4s 
+  table28 Scams & Frau    calls= 1 tokens=   151 tier=1   3.0s 
+  table29 Misinformati    calls= 5 tokens=  2717 tier=2  21.1s 
+<unknown>:3: SyntaxWarning: invalid escape sequence '\|'
+  table30 Task Automat    calls= 6 tokens=  3776 tier=2  25.6s 
+  table31 Business Int    calls= 1 tokens=   256 tier=1   2.6s 
+<unknown>:4: SyntaxWarning: invalid escape sequence '\|'
+<unknown>:4: SyntaxWarning: invalid escape sequence '\|'
+  table32 Conversation    calls=14 tokens= 11938 tier=2  72.7s 
+  table33 Research Ass    calls= 5 tokens=  2405 tier=2  16.3s 
+  table34 Sentiment An    calls= 1 tokens=   157 tier=1   3.0s 
+  table35 Information     calls= 5 tokens=  2189 tier=2  14.2s 
+  table36 Marketing &     calls= 6 tokens=  3616 tier=2  22.5s 
+  table37 Entertainmen    calls= 1 tokens=   310 tier=1   2.7s 
+  table38 Scams & Frau    calls= 0 tokens=     0 tier=0   0.0s 
+<unknown>:3: SyntaxWarning: invalid escape sequence '\|'
+  table39 Misinformati    calls=14 tokens= 12576 tier=2  82.4s 
+---
+correct:  0/40
+tokens:   71750
+calls:    125
+seconds:  575.5
+  easy   0/0
+  medium 0/0
+  hard   0/0
