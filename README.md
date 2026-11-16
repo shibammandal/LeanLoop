@@ -19,7 +19,7 @@
 ## Tracks & Problem Statements Covered
 
 * **Primary:** **Track 3: Efficient Trajectories** — Problem Statement 3 (*"Cut redundant, looping or failed tool calls and the number of steps per task, without lowering the success rate."*)
-* **Secondary / Exploratory:** **Track 2a & 2b: Robustness & Safety** — Hardening code-executing agents against indirect prompt injection (BIPIA) and evaluating inference-time activation steering (SafeTune).
+* **Secondary / Exploratory:** **Track 2b: AI safety and Correction** — Hardening code-executing agents against indirect prompt injection (BIPIA) and evaluating inference-time activation steering (SafeTune).
 
 ### Headline Results
 
